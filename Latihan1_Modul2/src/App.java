@@ -19,5 +19,6 @@ public class App {
         double castdouble = usia;
         int castint = (int) tinggi;
         System.out.println("Hasil casting int ke double: " + castdouble + "\nHasil casting double ke int: " + castint);
+        input.close();
     }
 }
