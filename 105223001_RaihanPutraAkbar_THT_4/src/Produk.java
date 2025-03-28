@@ -18,7 +18,7 @@ public class Produk {
         System.out.println("Stok: " + this.stok);
     }
 
-    public void kurangiStok(){
-        this.stok = this.stok - 1;
+    public void kurangiStok(int jumlahBeli){
+        this.stok = this.stok - jumlahBeli;
     }
 }

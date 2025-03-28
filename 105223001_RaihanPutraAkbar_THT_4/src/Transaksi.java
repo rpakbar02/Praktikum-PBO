@@ -17,7 +17,7 @@ public class Transaksi {
         if(pelanggan.saldo >= totalHarga){
             if(produk.stok >= jumlahBeli){
                 pelanggan.kurangiSaldo(totalHarga);
-                produk.kurangiStok();
+                produk.kurangiStok(jumlahBeli);
                 System.out.println("Transaksi berhasil dilakukan!");
             }else{
                 System.out.println("Stok produk tidak cukup!");
