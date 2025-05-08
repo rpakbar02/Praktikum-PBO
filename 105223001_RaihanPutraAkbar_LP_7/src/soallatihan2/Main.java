@@ -15,6 +15,6 @@ class Mobil extends Kendaraan{
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Mobil mobil1 = new Mobil();
     }
 }
